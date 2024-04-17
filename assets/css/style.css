@@ -1,17 +1,18 @@
 body{
-background-color: rgb(62, 169, 245);
+background-color: rgb(62, 62, 245);
     font-family: "Roboto", sans-serif;
 }
 .navegacion{
-    background-color: rgba(85, 204, 204, 0.579);
+    background-color: rgb(23, 29, 29);
 }
 .logo{
-    height: 15vh;
+    height: 10vh;
 }
 #header{
 background-image: url(../img/iceberg-404966_1920.png);
 background-repeat: no-repeat;
 background-size: inherit;
+height: 800px;
 height: 100vh;
 }
 .header-title {
