@@ -73,8 +73,12 @@ body{
   }
   .navbar-nav .nav-link {
     color: #fff !important;
+    &:hover{
+      background-color: thistle;
+      text-decoration: underline;
+    }
   }
-  
+
   /* Marca Section */
   .carousel-item img {
     max-height: 300px;
