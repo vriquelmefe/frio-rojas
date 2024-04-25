@@ -11,7 +11,7 @@ body{
     background-image: url('../img/iceberg-404966_1920.png'); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen */
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ body{
     font-size: 24px; /* Tamaño de fuente del texto */
   }
   
-  /* Navbar */
+  /* Ondas Waves */
   .waves {
     position:relative;
     width: 100%;
@@ -80,10 +80,28 @@ body{
   }
 
   /* Marca Section */
-  .carousel-item img {
-    max-height: 300px;
-    margin: auto;
+  .carousel-item{
+    background-color: #fff;
+    object-fit: scale-down;
+    padding: 2rem;
+    border-radius: 4px;
   }
+  .carousel-item img {
+    max-height: 250px;
+    margin: auto;
+    object-fit: cover;
+  }
+  
+  .title{
+    hr{
+      margin-top: .5rem;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 4px solid #ffc107b3;
+  }
+  
+  
+    }
   
   /* Footer */
   .footer {
