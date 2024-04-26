@@ -126,7 +126,20 @@ h1 {
   &:hover{
     background-color: rgba(15, 62, 172, 0.788);
     border: none;
+    color: #fff;
   }
+}
+.btn-productos{
+color: #fff;
+  background-color: rgba(15, 62, 172, 0.788);
+  border: none;
+
+  &:hover{
+    background-color: #fff;
+    color: rgba(15, 62, 172, 0.788);
+    border: none;
+  }
+
 }
 /* Footer */
 .footer {
