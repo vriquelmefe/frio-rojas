@@ -119,10 +119,17 @@ h1 {
   }
 }
 .btn-primary{
-  background-color: rgba(15, 62, 172, 0.788);
+  background-color: #fff;
+  color: rgba(15, 62, 172, 0.788);
   border: none;
+
+  &:hover{
+    background-color: rgba(15, 62, 172, 0.788);
+    border: none;
+  }
 }
 /* Footer */
 .footer {
   color: #fff;
+  border: 1px solid ;
 }
