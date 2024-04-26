@@ -45,6 +45,17 @@ h1 {
     font-size: 4em;
   }
 }
+.navbar-dark .navbar-toggler{
+  border-radius: 50%;
+  padding: 1em;
+  border: 1px solid #fff;
+}
+.navbar-dark .navbar-toggler-icon{
+  background-image: none;
+  color: #ffffffdb;
+ font-size: large;
+
+}
 
 /* Ondas Waves */
 .waves {
