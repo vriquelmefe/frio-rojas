@@ -36,6 +36,8 @@ h1 {
   box-shadow: none;
   color: rgba(15, 62, 172, 0.788);
   text-shadow: 2px 2px 15px whitesmoke;
+  justify-content: baseline;
+  vertical-align: super;
 }
 .navbar-dark .navbar-toggler {
   border-radius: 50%;
